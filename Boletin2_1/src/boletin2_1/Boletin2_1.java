@@ -23,7 +23,7 @@ public class Boletin2_1 {
     precio=ler.nextFloat();
     System.out.println("teclea la tarifa");
     tarifa=ler.nextFloat();
-    porcentaje=precio-precio*tarifa/100;
+    porcentaje=(precio-tarifa)*100/precio;
     System.out.println("el porcentaje es"+porcentaje);
     }
     
