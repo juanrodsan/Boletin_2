@@ -21,8 +21,8 @@ public class Boletin2_2 {
     float temperatura=0, kelvin=0, fahrenheit=0;
     System.out.println("teclea temperatura");
     temperatura=ler.nextFloat();
-    kelvin=temperatura*273;
-    fahrenheit=temperatura*32;
+    kelvin=temperatura+273;
+    fahrenheit=temperatura+32;
     System.out.println("grados kelvin ="+kelvin+"\ngrados fahrenheit ="+fahrenheit);
     }
     
